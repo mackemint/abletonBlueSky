@@ -1,5 +1,0 @@
-[filter "unzip"]
-	clean = gzcat -f
-	smudge = gzcat -f
-[diff "gzcat"]
-	textconv = gzcat
